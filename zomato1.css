@@ -1,0 +1,115 @@
+#main1{
+    /* border: 2px solid; */
+    height:1250px;
+    width: 100%;
+    position: relative;
+    
+}
+#main1>div{
+    margin-top:50px;
+    /* border: 2px solid; */
+    display: flex;
+    margin-left:210px;
+    /* margin-right: 250px; */
+    width:1200px;
+   
+    /* justify-content: space-between; */
+}
+#main1>div>article{
+    border: 2px solid gainsboro;
+    border-radius: 7px;
+    margin-right: 20px;
+    transition: all 0.5s;
+}
+#main1>div>article>img{
+    height:220px;
+     width:350px;
+    border-radius: 7px 7px;
+}
+#main1>div>article>img+div{
+    position: absolute;
+    top:160px;
+    background-color: white;
+    width: 350px;
+    height:65px;
+    border-radius:0px 0px 5px 5px;
+    /* border: 2px solid; */
+    line-height: 1.55;
+    
+}
+#main1>div>article:hover{
+    cursor: pointer;
+    transform: scale(1.05,1.05);
+}
+#main1>div>article>img+div>h3{
+    color: rgb(54, 54, 54);
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 20px;
+
+}
+#main1>div>article>img+div>h3+p{
+    font-size: 15px;
+    color: rgb(79, 79, 79);
+    padding-left: 20px;
+
+}
+ 
+@media only screen and (max-width:426px){
+    #main1{
+        /* border: 2px solid red; */
+        height:350px;
+        width: 100%;
+        position: relative;
+        
+    }
+    #main1>div{
+        margin-top:50px;
+      
+
+        display: flex;
+        flex-wrap: wrap;
+        margin:auto;
+        margin-top: 20px;
+        /* margin-right: 250px; */
+        width:90%;
+       
+        /* justify-content: space-between; */
+    }
+    #main1>div>article{
+        border: 1px solid gainsboro;
+        
+        margin-right: 20px;
+        margin-bottom: 20px;
+        margin-left: 5px;
+        border-radius:20px 20px 20px 20px;
+       
+    }
+    #main1>div>article>img{
+        height:120px;
+        width: 160px;
+        border-radius: 20px 20px;
+    }
+    #main1>div>article>img+div{
+        position: absolute;
+        top:105px;
+        background-color: white;
+        width:38%;
+        height:40px;
+        border-radius: 0px 0px 20px 20px ;
+        /* border: 2px solid red; */
+     
+        
+    }
+    #nightlife{
+        position: absolute;
+        top: 249px !important; 
+    }
+   
+    #main1>div>article>img+div>h3{
+       font-size: 14px;
+    }
+    #main1>div>article>img+div>h3+p{
+        font-size:8px;
+    }
+}
